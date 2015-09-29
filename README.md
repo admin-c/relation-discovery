@@ -2,7 +2,7 @@
 
 Module for Named Entity and Relation Extraction. Module is based on Stanford corenlp and
 mitie libraries for named entity recognition and on clausie and mitie libraries for
-relation extraction. See [references section](#References) for more details.
+relation extraction. See [references section](#references) for more details.
 
 ## Running examples from jar
 Which process to be run can be specified from command line arguments using -process <arg> ,
@@ -37,14 +37,14 @@ Usage example (specifics):
 >	java -jar RelationDiscovery-1.0-SNAPSHOT.jar -i default.json -p ner
 
 ## Authors
-Gregory Katsios
-Andreas Grivas
-Anastasia Krithara
+* Gregory Katsios
+* Andreas Grivas
+* Anastasia Krithara
 
 ## References
-[clausie](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie)
-[stanford core nlp](http://nlp.stanford.edu/software/corenlp.shtml)
-[mitie](https://github.com/mit-nlp/MITIE)
+* [clausie](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie)
+* [stanford core nlp](http://nlp.stanford.edu/software/corenlp.shtml)
+* [mitie](https://github.com/mit-nlp/MITIE)
 
 ## License
 relation-extraction - NCSR Demokritos module
