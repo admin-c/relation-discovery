@@ -1,9 +1,12 @@
-# Reveal - NCSR - Language Preprocessing - Named Entity Recognition and Relation Extraction
-					--- Updated by grv on 2015-09-29 17:04 ---
+# Named Entity Recognition and Relation Extraction
 
-Module for Named Entity and Relation Extraction. Which process to be run can
-be specified from command line arguments using -process <arg> , where <arg> is re
-for Relation Extraction or ner for Named Entity Recognition.
+Module for Named Entity and Relation Extraction. Module is based on Stanford corenlp and
+mitie libraries for named entity recognition and on clausie and mitie libraries for
+relation extraction. See [references section](#References) for more details.
+
+## Running examples from jar
+Which process to be run can be specified from command line arguments using -process <arg> ,
+where <arg> is re for Relation Extraction or ner for Named Entity Recognition.
 
 Since Named Entity Recognition is needed for Relation Extraction, in the case that re
 is specified Named Entity Extraction will also run but will not output results.
@@ -32,3 +35,29 @@ Usage example (specifics):
 
 	(relation extraction from file default.json)
 >	java -jar RelationDiscovery-1.0-SNAPSHOT.jar -i default.json -p ner
+
+## Authors
+Gregory Katsios
+Andreas Grivas
+Anastasia Krithara
+
+## References
+[clausie](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/software/clausie)
+[stanford core nlp](http://nlp.stanford.edu/software/corenlp.shtml)
+[mitie](https://github.com/mit-nlp/MITIE)
+
+## License
+relation-extraction - NCSR Demokritos module
+Copyright 2015 Gregory Katsios, Andreas Grivas, Anastasia Krithara
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
