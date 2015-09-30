@@ -123,5 +123,18 @@
 			<version>1.2</version>
 		</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>warn</checksumPolicy>
+			</releases>
+			<id>demokritos-reveal</id>
+			<name>demokritos-reveal</name>
+			<url>http://idefix.iit.demokritos.gr/maven2</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
     <name>Relation Discovery</name>
 </project>
