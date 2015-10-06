@@ -6,6 +6,7 @@ relation extraction. See [references section](#references) for more details.
 
 ## Prerequisites
 * Java 8
+* maven
 
 ## Running examples from jar
 Which process to be run can be specified from command line arguments using -process <arg> ,
