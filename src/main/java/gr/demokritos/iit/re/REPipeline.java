@@ -41,7 +41,8 @@ public class REPipeline {
 				}
 			} catch (Exception ex) {
 				// Silence this message for now - it just means we couldnt parse this
-				System.err.println("Error while extracting relations");
+				System.err.println("Error while extracting relations when processing sentence:");
+				System.err.println("%" + sentence + "%");
 				ex.printStackTrace();
 			}
 		}
