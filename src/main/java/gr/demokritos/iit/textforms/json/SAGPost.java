@@ -18,9 +18,9 @@ import java.util.logging.Logger;
  */
 public class SAGPost extends JsonForm {
 	// Labels of fields we want in json
-	public static final String ID_LABEL = "Puid";
+	public static final String ID_LABEL = "uid";
 	public static final String TEXT_LABEL = "body_value";
-	public static final String CREATED_LABEL = "Post_created";
+	public static final String CREATED_LABEL = "post_created";
 
 	public SAGPost(String id, String text, String date_created, JsonObject json) {
 		super(id, text, date_created, json);
